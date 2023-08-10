@@ -1,8 +1,11 @@
 Install dependencies
 ```bash
 sudo apt install raspi-config
+sudo apt install raspi-config
 pip install opencv-python
+sudo raspi-config
 ```
+Inside interfaces enable legacy camera options.
 
 ```bash
 sudo nano /boot/firmware/config.txt
