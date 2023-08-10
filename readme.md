@@ -1,6 +1,7 @@
 Install dependencies
 ```bash
 sudo apt install raspi-config
+pip install opencv-python
 ```
 
 ```bash
